@@ -16,7 +16,7 @@ public class esercizio1 {
         String stringa = scanner.nextLine();
         System.out.println("Per favore inserisci un numero");
         int numero = scanner.nextInt();
-        return stringa + numero;
+        return stringa + " " + numero;
     }
 
     public static String[] inserisciInArray(){
